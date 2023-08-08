@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    background-image: url('cafe.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header */
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Intro Section */
+.intro {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 2rem;
+}
+
+.intro h2 {
+    color: #3d8c3e;
+}
+
+.intro .btn {
+    background-color: #3d8c3e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Menu Section */
+.menu {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item h3 {
+    margin: 0;
+    color: #333;
+}
+
+.price {
+    font-weight: bold;
+    color: #3d8c3e;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+</style>
+</head>
+<body>
+    <header>
+        <h1>Fictional Cafe</h1>
+    </header>
+
+    <section class="intro">
+        <h2>Welcome to Fictional Cafe!</h2>
+        <p>We are a cozy and friendly cafe serving delicious food and drinks. Come and enjoy our relaxing atmosphere.</p>
+        
+        <a href="#menu" class="btn">View Menu</a>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h3>Special Coffee</h3>
+            <p>A rich blend of Arabica and Robusta coffee beans.</p>
+            <span class="price">$3.50</span>
+            
+        </div>
+        <div class="menu-item">
+            <h3>Classic Pancakes</h3>
+            <p>Fluffy pancakes served with maple syrup.</p>
+            <span class="price">$6.99</span>
+          
+        </div>
+        <div class="menu-item">
+            <h3>Fresh Salad</h3>
+            <p>Healthy mix of greens and vegetables.</p>
+            <span class="price">$5.50</span>
+           
+        </div>
+        <div class="menu-item">
+            <h3>Vegetarian Sandwich</h3>
+            <p>Grilled vegetables and hummus sandwich.</p>
+            <span class="price">$8.50</span>
+            
+        </div>
+        <div class="menu-item">
+            <h3>Chicken Panini</h3>
+            <p>Grilled chicken with pesto and cheese.</p>
+            <span class="price">$9.99</span>
+            
+        </div>
+        <div class="menu-item">
+            <h3>Breakfast Burrito</h3>
+            <p>Scrambled eggs, bacon, and cheese wrapped in a tortilla.</p>
+            <span class="price">$7.25</span>
+            
+        </div>
+        <div class="menu-item">
+            <h3>Mushroom Risotto</h3>
+            <p>Creamy mushroom risotto with parmesan.</p>
+            <span class="price">$10.50</span>
+            
+        </div>
+        <div class="menu-item">
+            <h3>Blueberry Muffins</h3>
+            <p>Freshly baked muffins with blueberries.</p>
+            <span class="price">$3.25</span>
+            
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to get in touch with us for reservations or any inquiries.</p>
+        <ul>
+            <ul>
+                
+                <li><a href="mailto:info@fictionalcafe.com">Email:info@fictionalcafe.com</a></li>
+                <li><a href="tel:+91 1234567891">Phone:+91 1234567891</a></li>
+                <li>Address: 123 Fictional Street, Mumbai, Maharastra , India</li>
+        </ul>
+    </section>
+    
+</body>
+</html>
